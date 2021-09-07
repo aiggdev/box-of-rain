@@ -1734,11 +1734,12 @@ fieldset:disabled .btn {
 }
 
 #menu {
-	background: #0D6EFD;
-	color: #FFF;
+	background: #fefefe;
+	color: #0D6EFD;
 	height: 45px;
 	padding-left: 18px;
 	border-radius: 10px;
+  text-align: right;
 }
 #menu ul, #menu li {
 	margin: 0 auto;
@@ -1747,9 +1748,10 @@ fieldset:disabled .btn {
 }
 #menu ul {
 	width: 100%;
+  text-align: right;
 }
 #menu li {
-	float: left;
+	float: right;
 	display: inline;
 	position: relative;
 }
@@ -1758,7 +1760,7 @@ fieldset:disabled .btn {
 	line-height: 45px;
 	padding: 0 14px;
 	text-decoration: none;
-	color: #0D6EFD;
+	color: #67c9ff;
 	font-size: 16px;
 }
 #menu a.dropdown-arrow:after {
@@ -1768,6 +1770,7 @@ fieldset:disabled .btn {
 #menu li a:hover {
 	color: #0099CC;
 	background: #F2F2F2;
+  border-radius: .5rem;
 }
 #menu input {
 	display: none;
@@ -1811,12 +1814,12 @@ fieldset:disabled .btn {
 	display: block
 }
 #menu ul.sub-menus a:hover{
-	background: #d3d0d0;
-	color: #444444;
+	background: #e4e5de;
+	color: #323337;
 }
 @media screen and (max-width: 800px){
 	#menu {position:relative}
-	#menu ul {background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
+	#menu ul {background:#1f303c;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
 	#menu ul.sub-menus {width:100%;position:static;}
 	#menu ul.sub-menus a {padding-left:30px;}
 	#menu li {display:block;float:none;width:auto;}
